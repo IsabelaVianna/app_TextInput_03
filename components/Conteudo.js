@@ -46,8 +46,8 @@ export default function Conteudo() {
       <TouchableHighlight style={estilos.botaoVerificar} onPress={verificar} underlayColor="#388e3c">
         <Text style={estilos.textoBotao}>Verificar</Text>
       </TouchableHighlight>
-      {mensagem === 'acertou' && <Text style={estilos.mensagemAcerto}>🎉 Acertou!</Text>}
-      {mensagem === 'errou' && <Text style={estilos.mensagemErro}>❌ Errou! Tente novamente.</Text>}
+      {mensagem === 'acertou' && <Text style={estilos.mensagemAcerto}>Acertou!</Text>}
+      {mensagem === 'errou' && <Text style={estilos.mensagemErro}> Errou! Tente novamente.</Text>}
       <TouchableHighlight style={estilos.botaoProximo} onPress={proximo} underlayColor="#1565c0">
         <Text style={estilos.textoBotao}>Próximo</Text>
       </TouchableHighlight>
