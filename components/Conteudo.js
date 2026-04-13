@@ -35,7 +35,7 @@ export default function Conteudo() {
 
   return (
     <View style={estilos.conteudoContainer}>
-      <Text style={estilos.conteudoTitulo}>👸 Acerte a Princesa!</Text>
+      <Text style={estilos.conteudoTitulo}>Acerte a Princesa da Disney!</Text>
       <Image source={princesas[indice].imagem} style={estilos.imagem} resizeMode="contain" />
       <TextInput
         style={estilos.input}
